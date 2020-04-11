@@ -32,6 +32,10 @@ eureka:
    instance:
       instance-id: dept-8001.com               #监控页面显示的服务名
       prefer-ip-address: true                               #鼠标悬停，左下显示IP
+logging:
+  level:
+    root: error
+    com.atguigu: error
 info:
   app.name: atguigu-microservicecloud
   company.name: www.atguigu.com
